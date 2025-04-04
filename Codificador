@@ -1,7 +1,26 @@
 palavra1 = input("Digite a primeira palavra (até 5 letras): ")
+if len(palavra1) > 5:
+    print("A palavra deve ter no máximo 5 letras.")
+    palavra1 = input("Digite a primeira palavra (até 5 letras)")
+
+
 palavra2 = input("Digite a segunda palavra (até 5 letras): ")
+if len(palavra2) > 5:
+    print("A palavra deve ter no máximo 5 letras.")
+    palavra2 = input("Digite a segunda palavra (até 5 letras): ")
+
+
 palavra3 = input("Digite a terceira palavra (até 5 letras): ")
+if len(palavra3) > 5:
+    print("A palavra deve ter no máximo 5 letras.")
+    palapalavra3vra1 = input("Digite a terceira palavra (até 5 letras): ")
+
+
 codificado = input("Digite a palavra codificada (até 5 letras): ")
+if len(codificado) > 5:
+    print("A palavra codificada deve ter no máximo 5 letras.")
+    codificado = input("Digite a palavra codificada (até 5 letras)")
+
 
 letra1_cod = chr(ord(palavra1[0]) + 1)
 letra2_cod = chr(ord(palavra1[1]) + 1)
