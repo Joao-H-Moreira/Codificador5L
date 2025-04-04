@@ -1,0 +1,36 @@
+palavra1 = input("Digite a primeira palavra (até 5 letras): ")
+palavra2 = input("Digite a segunda palavra (até 5 letras): ")
+palavra3 = input("Digite a terceira palavra (até 5 letras): ")
+codificado = input("Digite a palavra codificada (até 5 letras): ")
+
+letra1_cod = chr(ord(palavra1[0]) + 1)
+letra2_cod = chr(ord(palavra1[1]) + 1)
+letra3_cod = chr(ord(palavra1[2]) + 1)  
+letra4_cod = chr(ord(palavra1[3]) + 1)
+letra5_cod = chr(ord(palavra1[4]) + 1)
+palavra1_cod = letra1_cod + letra2_cod + letra3_cod + letra4_cod + letra5_cod
+
+letra1_cod = chr(ord(palavra2[0]) + 1)
+letra2_cod = chr(ord(palavra2[1]) + 1)
+letra3_cod = chr(ord(palavra2[2]) + 1)
+letra4_cod = chr(ord(palavra2[3]) + 1)
+letra5_cod = chr(ord(palavra2[4]) + 1)
+palavra2_cod = letra1_cod + letra2_cod + letra3_cod + letra4_cod + letra5_cod
+
+letra1_cod = chr(ord(palavra3[0]) + 1)
+letra2_cod = chr(ord(palavra3[1]) + 1)
+letra3_cod = chr(ord(palavra3[2]) + 1)
+letra4_cod = chr(ord(palavra3[3]) + 1)
+letra5_cod = chr(ord(palavra3[4]) + 1)
+palavra3_cod = letra1_cod + letra2_cod + letra3_cod + letra4_cod + letra5_cod
+
+letra1_cod = chr(ord(codificado[0]) - 1)
+letra2_cod = chr(ord(codificado[1]) - 1)
+letra3_cod = chr(ord(codificado[2]) - 1)
+letra4_cod = chr(ord(codificado[3]) - 1)
+letra5_cod = chr(ord(codificado[4]) - 1)
+codificado_cod = letra1_cod + letra2_cod + letra3_cod + letra4_cod + letra5_cod
+
+
+print(f"Mensagem codificada: {palavra1_cod} {palavra2_cod} {palavra3_cod}")
+print(f"Mensagem codificada: {codificado_cod} ")
