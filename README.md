@@ -14,7 +14,7 @@ print(chr(65))  # Saída: 'A'
 print(chr(97))  # Saída: 'a'
 
 
-#3. Transformar uma string em lista de letras
+# 3. Transformar uma string em lista de letras
 Use list() para dividir uma string em caracteres individuais:
 
 lista_letras = list("texto")
